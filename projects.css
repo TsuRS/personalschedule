@@ -1,0 +1,93 @@
+
+.maindiv
+{
+    background-image: url(wallpaper.jpg);
+    background-size:100%;
+    background-color: #3d4863;
+    position: absolute;
+        left: 0px;
+        right: 0px;
+        top: 0px;
+        bottom: 0px;
+    display:flex;
+}
+
+.contentdiv
+{
+    position: absolute;
+    margin:auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    background-color: #191a1de3;
+    overflow: auto;
+    margin: 20px;
+    color: #cecece;
+    background: #191a1de3;
+}
+
+.roundcorners
+{
+	border:1px #191a1d;
+    border-radius: 10px 10px 10px 10px;
+}
+
+#tablediv
+{
+    padding: 8px;
+    left: 0;
+    top: 0;
+}
+
+table
+{
+    border-collapse:collapse;  
+    font-size: small; 
+    text-align:center;
+    margin: 10px;
+}
+
+td
+{
+    border: 1px solid #cecece;
+    padding: 10px 20px;
+    min-width: 50px;
+}
+
+th
+{
+    padding: 10px;
+    border: 1px solid #cecece;
+    font-weight: bold;
+}
+
+#clock
+{
+    left: 0;
+    bottom: 0;
+    font-size:10em;
+    padding: 0px 20px;
+}
+
+#links{
+font-size:large;
+right:0;
+bottom:0;
+padding:0px 30px;
+}
+
+li
+{
+    list-style:armenian;
+    padding: 10px 20px;
+    font-size:large;
+}
+
+a
+{
+    color:#cecece
+}
+
+a:hover
+{
+    color:antiquewhite
+}
