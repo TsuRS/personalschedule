@@ -24,7 +24,7 @@ class Elements
         {
             week: 2,
             mon: "数学 HL",
-            tue: "物理 HL",
+            tue: "物理 SL",
             wed: "日本語",
             thu: "英語",
             fri: "地理"
