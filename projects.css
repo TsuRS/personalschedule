@@ -89,7 +89,7 @@ th
     font-size: large;
 }
 
-#summonukagaka{
+#summonukagaka, #resetukagaka{
     display:flex;
     justify-content:center;
     align-items:stretch;
