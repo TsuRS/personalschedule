@@ -63,7 +63,7 @@ function createTable2()
     }
 
     // add table to div
-    document.getElementById("tablediv").appendChild(table);
+    document.getElementById("table").appendChild(table);
 }
 
 
