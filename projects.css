@@ -1,0 +1,129 @@
+
+.maindiv
+{
+    background-image: url(wallpaper.jpg);
+    background-size:100%;
+    background-color: #000000;
+    position: absolute;
+        left: 0em;
+        right: 0em;
+        top: 0em;
+        bottom: 0em;
+    display:flex;
+}
+
+.contentdiv
+{
+    margin:auto;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 500;
+    background-color: #000000;
+    overflow: auto;
+    margin: 1rem;
+    color: rgb(149,149,149);
+    background: #000000;
+}
+
+.roundcorners
+{
+	border: 1px rgb(206, 121, 146, 0.7);
+    border-style:solid;
+    border-radius: 0.5rem;
+}
+
+#tablediv
+{
+    position:absolute;
+    padding: 0.5rem;
+    left: 0em;
+    top: 0em;
+}
+
+table
+{
+    border-collapse:collapse;  
+    font-size: small; 
+    text-align:center;
+    margin: 0.8rem;
+}
+
+td, th
+{
+    border: 1px solid rgb(149,149,149);
+    padding: 0.8rem 1.6rem;
+    min-width: 4em;
+}
+
+th
+{
+    font-weight: bold;
+}
+
+#clock
+{
+    position:absolute;
+    left: 0em;
+    bottom: 0em;
+    font-size:10em;
+    padding: 0.5rem;
+}
+
+#toprightdiv{
+    position: absolute;
+    top: 0em;
+    right: 0em;
+    display:flex;
+    font-size:large;
+    justify-content:flex-end;
+    align-items:stretch;
+    flex-direction:column;
+}
+
+#links {
+    padding: 0em 2rem;
+}
+#links li
+{
+    list-style:armenian;
+    padding: 0.5rem 3rem;
+    font-size: large;
+}
+
+#summonukagaka{
+    display:flex;
+    justify-content:center;
+    align-items:stretch;
+}
+
+a
+{
+    color:rgb(149,149,149);
+}
+
+a:hover
+{
+    color:rgb(206,121,146);
+}
+
+.active {
+    color:#bbbbbb;
+    background-color:#111111;
+    font-weight: bold;
+    border: 1px double rgb(206,121,146);
+}
+
+button {
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 500;
+    border-style: none;
+    font-size: large; 
+    background-color: #000000;
+    color: rgb(149,149,149);
+    padding:0.5rem;
+    width:100%;
+    margin:none;
+}
+button:hover {
+    background-color: #111111;
+    color: rgb(206,121,146)
+}
