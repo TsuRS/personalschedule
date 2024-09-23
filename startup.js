@@ -1,7 +1,7 @@
 
 window.onload = function()
 {
-    createTable2();
+    //createTable2();
     currentTime();
 }
 
