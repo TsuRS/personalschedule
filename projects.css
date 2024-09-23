@@ -45,6 +45,23 @@
     align-items:center;
 }
 
+#schedule {
+    padding: 4vmin;
+    max-width:50%;
+}
+.day
+{
+    margin: 1vmin 0px;
+    padding:2vmin;
+    height:100%;
+    border: 1px solid rgb(144, 85, 102);
+}
+
+.day p{
+    margin:1vmin;
+
+}
+
 .buttonDiv {
     padding:0px;
 }
